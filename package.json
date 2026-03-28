@@ -1,0 +1,43 @@
+{
+  "name": "@core-suite/icons",
+  "version": "0.1.0",
+  "description": "Forensic icon library for the CORE ecosystem",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./heroicons": "./src/heroicons.ts",
+    "./semantic": "./src/semantic.tsx",
+    "./forensic": "./src/forensic.tsx",
+    "./spinner": "./src/spinner.tsx",
+    "./types": "./src/types.ts"
+  },
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.9.0",
+    "solid-icons": "^1.1.0"
+  },
+  "devDependencies": {
+    "solid-js": "^1.9.11",
+    "solid-icons": "^1.1.0",
+    "typescript": "~5.6.2"
+  },
+  "keywords": [
+    "icons",
+    "heroicons",
+    "solidjs",
+    "forensic",
+    "core-suite"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmreyno/COREicons.git"
+  }
+}
